@@ -13,9 +13,7 @@ import states.editors.ChartingState;
 import substates.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
 
-#if MODS_ALLOWED
-import sys.FileSystem;
-#end
+
 
 class FreeplayState extends MusicBeatState
 {
